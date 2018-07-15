@@ -6,5 +6,7 @@ This is a supporting site for the source code of the paper 'Instant Time-Series 
 
 In order to run the code:
 
-** Clone the repository locally
-** We provided the smallest dataset HAR for testing the code, the other datasets exceed the Github file upload limit. Unzip the *.zip files in the folders 'HAR/0/', 'HAR/1/' and 'HAR/2/'.
+1 - Clone the repository locally
+
+
+2 - We provided the smallest dataset HAR for testing the code, the other datasets exceed the Github file upload limit. Unzip the *.zip files in the folders 'HAR/0/', 'HAR/1/' and 'HAR/2/'.
