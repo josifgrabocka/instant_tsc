@@ -21,4 +21,3 @@ python3 HAR/0/ multitask 0.1 decay
 
 python3 HAR/0/ singletask 0.1 norm
 
-* Make sure that you are running the code from the instant_tsc folder
