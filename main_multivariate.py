@@ -19,7 +19,7 @@ hyperparams = HyperParams()
 hyperparams.type = 'multivariate'
 config = hyperparams.get_config(data, sys.argv)
 
-# mask/hide the test data after the truncation point during testing, to make sure no method accesses it
+# hide the test series measurements after the truncation point during testing, to make sure no method accesses it
 data.mask_test_after(config['cnn_rnn:demanded_frac'])
 
 
