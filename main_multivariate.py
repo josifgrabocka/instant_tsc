@@ -29,7 +29,7 @@ tf.reset_default_graph()
 # create final model with the best smoothing degree
 model = CNN_Model(dataset=data, config=config)
 
-# create a list of tasks
+# create an optimizer
 opt = Optimizer(config=config)
 opt.define_losses(dataset=data, model=model)
 opt.optimize(dataset=data, model=model)
