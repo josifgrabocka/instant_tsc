@@ -13,11 +13,10 @@ In order to run the code:
 
 3 - To run the code for the first split of the HAR dataset for the truncated version with a demanded early franction of 0.1, issue:
 
-python3 HAR/0/ singletask 0.1 
+python3 -u main_multivariate.py HAR/0/ singletask 0.1 
 
 for the multitask versions with decay or gaussian smoothing, issue
 
-python3 HAR/0/ multitask 0.1 decay
+python3 -u main_multivariate.py HAR/0/ multitask 0.1 decay
 
-python3 HAR/0/ singletask 0.1 norm
-
+python3 -u main_multivariate.py HAR/0/ singletask 0.1 norm
